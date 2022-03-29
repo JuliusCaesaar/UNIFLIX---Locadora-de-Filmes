@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculadora</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/animations.js"></script>
+
+    <body>
+        <div class="jumbotron" style="background= blue;">
+            <h1 class="display-3"><center>Confirmar alocação</center></h1>
+            <p class="lead">
+                <center>Verifique todas as informações antes de confirmar!
+                    <br> Vá em frente, veja se a oferta cabe no seu bolso.</center>
+            </p>
+        </div>
+        <center>
+            <div id="mike_jackson">
+                <FORM Name="myform">
+                    <p>Que filme você escolheu?</p>
+                    <select name="chosen_movie" onchange="calculatePrice()" id="chosen_album">
+                        <option value="10.00">Vingadores - Guerra Infinita - $10.00<img src="img/jackson.jpg"></option>
+                        <option value="25.00">V de Vingança - $25.00<img src="img/jackson.jpg"></option>
+                        <option value="10.00">Pantera Negra - $10.00<img src="img/jackson.jpg"></option>
+                        <option value="20.00">Mulher Maravilha 1984 - $20.00<img src="img/jackson.jpg"></option>
+                        <option value="25.00">O Esquadrão Suicida - $25.00<img src="img/jackson.jpg"></option>
+                    </select>
+                    <br>
+                    <br>
+                    <SELECT NAME="num_of_days" onchange="calculatePrice()" id="number_days">
+                        <OPTION value="0">Padrão - 1</OPTION>
+                        <OPTION value="5">Mais de dez dias - $5.00</OPTION>
+                        <OPTION value="10">Mais de vinte dias - $10.00</OPTION>
+                        <OPTION value="15">Mais de trinta dias - $15.00</OPTION>
+                    </SELECT>
+                    <br>
+                    <p>A opção padrão equivale a 10 dias.</p>
+                    <SELECT NAME="num_of_albums" onChange="calculatePrice()" id="number_albums">
+                        <OPTION value="0">Padrão - 1</OPTION>
+                        <OPTION value="2.07">2 filmes - $2.07</OPTION>
+                        <OPTION value="4.07">3 filmes - $4.07</OPTION>
+                        <OPTION value="6.07">4 filmes - $6.07</OPTION>
+                        <OPTION value="8.07">5 filmes - $8.07</OPTION>
+                        <OPTION value="10.07">6 filmes - $10.07</OPTION>
+                        <OPTION value="12.07">7 filmes - $12.07</OPTION>
+                        <OPTION value="14.07">8 filmes - $14.07</OPTION>
+                        <OPTION value="16.07">9 filmes - $16.07</OPTION>
+                        <OPTION value="18.07">10 filmes - $18.07</OPTION>
+                    </SELECT>
+                    <br>
+                    <p>Caso escolha a opção padrão, vem apenas um filme.</p>
+                </FORM>
+                Preço final: $
+                <INPUT type="text" id="PicExtPrice" Size=4>
+        </center>
+    </body>
+
+</html>
