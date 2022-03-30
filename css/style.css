@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*============================Parte de edição do index.html=========================*/
+
+/*============================Edição do menú de navegação==========================*/
+body {
+    background-color: #FFF;
+}
+
+div.container {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+h1.logo {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: #FFF;
+    font-size: 30px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 15px;
+}
+
+nav#menu {
+    background-image: linear-gradient(to right, #2a0910, #3e1118, #6b1a23);
+    width: 100%;
+    height: 60px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+a.link {
+    color: #AAA;
+    text-decoration: none;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+a.link:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+img.logo-foto {
+    position: absolute;
+    margin-left: 10px;
+}
+
+.frase-icone {
+    margin-top: 30px;
+    border-bottom: 1px solid #141414;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*==================================Código final do menú de navegação===========================*/
+
+/*========================Início do código campo de filmes novos lançamentos===========================*/
+h2.destaques {
+    color: #141414;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+img.icone, h2.destaques {
+    display: inline-block;
+}
+
+div.filmes-lancamentos {
+    background-color: #141414;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding: 6px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    display: inline-block;
+}
+
+div.col-md-3 {
+    background-color: #141414;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding: 6px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    display: inline-block;
+}
+
+div.nome {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #FFF;
+    width: 190px;
+}
+
+div.preco {
+    float: right;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin-top: 20px;
+    padding-right: 5px;
+    color: #FFF;
+}
+
+div.categoria {
+    border-top: 1px dotted #FFF;
+    padding-top: 5px;
+    padding-left: 5px;
+    
+}
+div.categoria a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+button {
+    padding: 2px 7px;
+    margin-left: 5px;
+    background-color: #AAA;
+    transition: 1s ease all;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #141414;
+}
+
+button:focus {
+    background-color: #01b4e4;
+    color: #000;
+
+}
+/*===========================Código final do campo de filmes novos lançamentos==========================*/
+
+
+/*=================================Ińicio da edição do código parte Footer============================*/
+footer {
+    background-image: linear-gradient(to right, #2a0910, #3e1118, #6b1a23);
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+
+footer img, p.informacao {
+    display: inline-block;
+    color: #FFF;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 18px;
+    padding-left: 5px;
+}

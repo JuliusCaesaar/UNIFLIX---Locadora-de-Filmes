@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #101010;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+nav#menu {
+    background-image: linear-gradient(to right, #2a0910, #3e1118, #6b1a23);
+    height: 60px;
+}
+
+.container-login {
+    margin-left: 20px;
+}
+
+#campo-login {
+    border: #FFF 1px solid;
+    border-radius: 3px;
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.label-login {
+    font-size: 15pt;
+    color: #FFF;
+}
+
+.input-login {
+    padding: 7px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #FFF;
+    color: #FFF;
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+a.container-login {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a.container-login:hover {
+    text-decoration: underline;
+}
+
+button.entrar {
+    padding: 3px 6px;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    width: 267px;
+    
+}
+
+a.esq-senha {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+
+#campo-cadastro {
+    border: #FFF 1px solid;
+    border-radius: 3px;
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+p, a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
